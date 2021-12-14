@@ -159,24 +159,6 @@
                  "y":493.5
                 }, 
                 {
-                 "height":0,
-                 "id":109,
-                 "name":"cedric",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"conversation",
-                         "type":"string",
-                         "value":"ryan"
-                        }],
-                 "rotation":0,
-                 "type":"npc",
-                 "visible":true,
-                 "width":0,
-                 "x":119,
-                 "y":287
-                }, 
-                {
                  "gid":10004,
                  "height":24,
                  "id":139,
@@ -187,6 +169,24 @@
                  "width":24,
                  "x":146.5,
                  "y":351
+                }, 
+                {
+                 "gid":11019,
+                 "height":32,
+                 "id":141,
+                 "name":"cedric",
+                 "properties":[
+                        {
+                         "name":"conversation",
+                         "type":"string",
+                         "value":"ryan"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
+                 "x":95.977240398293,
+                 "y":285.018492176387
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -234,10 +234,10 @@
          "y":0
         }],
  "nextlayerid":44,
- "nextobjectid":141,
+ "nextobjectid":142,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.6.0",
+ "tiledversion":"1.7.2",
  "tileheight":24,
  "tilesets":[
         {
@@ -258,8 +258,12 @@
          "source":"..\/..\/..\/..\/.bundled\/tilesets\/TwilioQuestObjects.json"
         }, 
         {
-         "firstgid":10014,
+         "firstgid":11017,
          "source":"..\/..\/..\/tilesets\/MyCustomObjects.json"
+        }, 
+        {
+         "firstgid":11018,
+         "source":"..\/..\/..\/..\/.bundled\/tilesets\/TwilioQuestNPCs.json"
         }],
  "tilewidth":24,
  "type":"map",
